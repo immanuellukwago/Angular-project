@@ -1,0 +1,13 @@
+<h1>Welcome to {{ hotelName }}</h1>
+<!-- interpolation text binding -->
+
+<div [hidden]="hidden">
+  Number of rooms:
+  <h2 [innerText]="numberOfRooms"></h2>
+  <!-- inline binding -->
+</div>
+
+<button (click)="add()">Click Me</button>
+<!-- Event binding -->
+
+<p>rooms works!</p>
